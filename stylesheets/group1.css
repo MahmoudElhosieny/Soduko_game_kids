@@ -1,0 +1,174 @@
+/* line 1, ../sass/group1.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 8, ../sass/group1.scss */
+body #section1 {
+  background-color: transparent;
+}
+/* line 10, ../sass/group1.scss */
+body #section1 #pictureGroup {
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 20px;
+  background-color: rgba(177, 255, 229, 0.399);
+}
+/* line 14, ../sass/group1.scss */
+body #section1 #pictureGroup .numberBg {
+  background-color: rgba(127, 255, 212, 0.538);
+  border-bottom: 2px solid black;
+}
+/* line 21, ../sass/group1.scss */
+body #section1 #userInformation div:nth-child(1) {
+  box-shadow: 2px 2px 10px gray;
+  border-radius: 20px;
+  background-color: rgba(177, 255, 229, 0.399);
+}
+/* line 26, ../sass/group1.scss */
+body #section1 #userInformation div:nth-child(2) {
+  box-shadow: 2px 2px 10px gray;
+  border-radius: 20px;
+  background-color: rgba(177, 255, 229, 0.399);
+}
+/* line 33, ../sass/group1.scss */
+body #gamesecion {
+  background: no-repeat url("../images/13.jpeg") center/cover;
+  padding-bottom: 65px;
+}
+
+/* line 39, ../sass/group1.scss */
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100px;
+}
+
+/* line 45, ../sass/group1.scss */
+.number {
+  background-color: transparent;
+  border-color: aliceblue;
+  border-top: none;
+}
+
+/* line 52, ../sass/group1.scss */
+.number:focus {
+  box-shadow: none;
+  border-color: darkgray;
+}
+
+/* line 56, ../sass/group1.scss */
+.startButton {
+  position: fixed;
+  background-color: rgba(37, 234, 248, 0.685);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+/* line 64, ../sass/group1.scss */
+.startButton span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 300px;
+  height: 60px;
+  line-height: 30px;
+  cursor: pointer;
+  user-select: none;
+  background-color: #2decb6;
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 15px 25px;
+  color: #202020;
+  border: 1px solid black;
+}
+
+/* line 86, ../sass/group1.scss */
+.imgStyle {
+  height: 100px;
+  border-radius: 10px;
+}
+
+/* line 91, ../sass/group1.scss */
+.WellDone {
+  position: fixed;
+  background-color: rgba(100, 255, 126, 0.61);
+  left: 0;
+  top: 300px;
+  width: 100%;
+  height: 350px;
+  z-index: 5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+/* line 102, ../sass/group1.scss */
+.WellDone img {
+  border-radius: 50%;
+}
+/* line 105, ../sass/group1.scss */
+.WellDone span {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 300px;
+  height: 60px;
+  line-height: 30px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 30px;
+  border-radius: 20px;
+  padding: 15px 25px;
+  color: green;
+}
+
+/* line 124, ../sass/group1.scss */
+.Gameover {
+  position: fixed;
+  background-color: rgba(252, 7, 7, 0.67);
+  left: 0;
+  top: 300px;
+  width: 100%;
+  height: 350px;
+  z-index: 5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+/* line 135, ../sass/group1.scss */
+.Gameover img {
+  border-radius: 20%;
+  width: 180px;
+  height: 180px;
+  margin-top: 10px;
+}
+/* line 141, ../sass/group1.scss */
+.Gameover span {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 300px;
+  height: 60px;
+  line-height: 30px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 30px;
+  border-radius: 20px;
+  padding: 15px 25px;
+  color: #fc450e;
+}
+
+/* line 160, ../sass/group1.scss */
+.notCilck {
+  user-select: none;
+}

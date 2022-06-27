@@ -1,0 +1,123 @@
+/* line 2, ../sass/gameStyle.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 7, ../sass/gameStyle.scss */
+body {
+  width: 100vw;
+  height: 100vh;
+  border: 8px groove black;
+  background: no-repeat url(../images/22.jfif) center/cover;
+}
+/* line 13, ../sass/gameStyle.scss */
+body #section1 {
+  width: 100%;
+  height: 25%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 20, ../sass/gameStyle.scss */
+body #section1 div:nth-child(1) {
+  border: 1px solid black;
+  width: 50%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* line 27, ../sass/gameStyle.scss */
+body #section1 div:nth-child(1) div:nth-child(1) {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+/* line 31, ../sass/gameStyle.scss */
+body #section1 div:nth-child(1) div:nth-child(1) div:nth-child(1) {
+  width: 100%;
+}
+/* line 34, ../sass/gameStyle.scss */
+body #section1 div:nth-child(1) div:nth-child(1) div:nth-child(2) {
+  width: 20%;
+  height: 20%;
+}
+/* line 40, ../sass/gameStyle.scss */
+body #section1 div:nth-child(1) div:nth-child(2) {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+/* line 44, ../sass/gameStyle.scss */
+body #section1 div:nth-child(1) div:nth-child(2) div:nth-child(1) {
+  width: 100%;
+}
+/* line 47, ../sass/gameStyle.scss */
+body #section1 div:nth-child(1) div:nth-child(2) div:nth-child(2) {
+  width: 20%;
+  height: 20%;
+}
+/* line 52, ../sass/gameStyle.scss */
+body #section1 div:nth-child(1) div:nth-child(3) {
+  width: 20%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 58, ../sass/gameStyle.scss */
+body #section1 div:nth-child(1) div:nth-child(3) div:nth-child(1) {
+  width: 100%;
+}
+/* line 62, ../sass/gameStyle.scss */
+body #section1 div:nth-child(1) div:nth-child(3) div:nth-child(2) {
+  width: 20%;
+  height: 20%;
+}
+/* line 68, ../sass/gameStyle.scss */
+body #section1 div:nth-child(1) div:nth-child(4) {
+  width: 20%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 74, ../sass/gameStyle.scss */
+body #section1 div:nth-child(1) div:nth-child(4) div:nth-child(1) {
+  width: 100%;
+}
+/* line 77, ../sass/gameStyle.scss */
+body #section1 div:nth-child(1) div:nth-child(4) div:nth-child(2) {
+  width: 20%;
+  height: 20%;
+}
+/* line 89, ../sass/gameStyle.scss */
+body #section1 div:nth-child(2) {
+  border: 1px solid black;
+  width: 45%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* line 96, ../sass/gameStyle.scss */
+body #section1 div:nth-child(2) span:nth-child(1) {
+  border: 1px solid black;
+  font-size: 30px;
+  width: 20%;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: aliceblue;
+}
+/* line 104, ../sass/gameStyle.scss */
+body #section1 div:nth-child(2) span:nth-child(2) {
+  border: 1px solid black;
+  font-size: 30px;
+  width: 30%;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: aliceblue;
+}

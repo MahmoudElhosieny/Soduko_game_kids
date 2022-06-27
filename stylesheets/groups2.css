@@ -1,0 +1,46 @@
+/* line 1, ../sass/groups2.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 9, ../sass/groups2.scss */
+body #coverpage {
+  border-radius: 15px;
+  height: 100%;
+}
+/* line 12, ../sass/groups2.scss */
+body #coverpage img {
+  height: 100%;
+}
+/* line 16, ../sass/groups2.scss */
+body #mainContainer {
+  background-color: rgba(185, 254, 83, 0.595);
+  box-shadow: 10px 10px 10px rgba(188, 188, 188, 0.682);
+  border-radius: 15px;
+  position: absolute;
+  top: 50px;
+}
+/* line 22, ../sass/groups2.scss */
+body #mainContainer .boxShadow {
+  box-shadow: 10px 10px 10px rgba(161, 250, 161, 0.682);
+  border-radius: 15px;
+}
+/* line 26, ../sass/groups2.scss */
+body #mainContainer a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+
+/* line 34, ../sass/groups2.scss */
+.startButton {
+  position: fixed;
+  background-color: rgba(37, 248, 241, 0.489);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+}

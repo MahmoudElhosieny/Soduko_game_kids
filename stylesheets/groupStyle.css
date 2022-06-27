@@ -1,0 +1,276 @@
+/* line 3, ../sass/groupStyle.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 8, ../sass/groupStyle.scss */
+body {
+  width: 100vw;
+  height: 100vh;
+  border: 8px groove black;
+  background: no-repeat url(../images/13.jpeg) center/cover;
+}
+/* line 13, ../sass/groupStyle.scss */
+body section {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  bottom: 30px;
+  left: 80px;
+  background-color: rgba(245, 245, 220, 0.451);
+  border-radius: 20px;
+  box-shadow: 15px 15px 15px rgba(210, 210, 209, 0.523);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+/* line 28, ../sass/groupStyle.scss */
+body section div:nth-child(1) {
+  width: 45%;
+  height: 40%;
+  border-radius: 20px;
+  box-shadow: -10px -10px 10px rgba(78, 252, 180, 0.468);
+}
+/* line 34, ../sass/groupStyle.scss */
+body section div:nth-child(1) div:nth-child(1) {
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+/* line 45, ../sass/groupStyle.scss */
+body section div:nth-child(1) div:nth-child(2) {
+  box-shadow: none;
+  width: 70%;
+  height: 20%;
+  padding: 2px;
+  margin: auto;
+  margin-top: 5px;
+}
+/* line 52, ../sass/groupStyle.scss */
+body section div:nth-child(1) div:nth-child(2) button {
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: 70%;
+  border-radius: 10px;
+  border: none;
+}
+/* line 59, ../sass/groupStyle.scss */
+body section div:nth-child(1) div:nth-child(2) button:hover {
+  background-color: #c2ff89;
+  cursor: pointer;
+}
+/* line 64, ../sass/groupStyle.scss */
+body section div:nth-child(1) div:nth-child(2) button a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.2rem;
+}
+/* line 76, ../sass/groupStyle.scss */
+body section div:nth-child(2) {
+  width: 45%;
+  height: 40%;
+  border-radius: 20px;
+  box-shadow: 10px 0 10px rgba(78, 252, 180, 0.468), 0 -10px 10px rgba(78, 252, 180, 0.468);
+}
+/* line 82, ../sass/groupStyle.scss */
+body section div:nth-child(2) div:nth-child(1) {
+  box-shadow: none;
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+/* line 93, ../sass/groupStyle.scss */
+body section div:nth-child(2) div:nth-child(2) {
+  box-shadow: none;
+  width: 70%;
+  height: 20%;
+  padding: 2px;
+  margin: auto;
+  margin-top: 5px;
+}
+/* line 100, ../sass/groupStyle.scss */
+body section div:nth-child(2) div:nth-child(2) button {
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: 70%;
+  border-radius: 10px;
+  border: none;
+}
+/* line 107, ../sass/groupStyle.scss */
+body section div:nth-child(2) div:nth-child(2) button:hover {
+  background-color: #c2ff89;
+  cursor: pointer;
+}
+/* line 112, ../sass/groupStyle.scss */
+body section div:nth-child(2) div:nth-child(2) button a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.2rem;
+}
+/* line 124, ../sass/groupStyle.scss */
+body section div:nth-child(3) {
+  width: 45%;
+  height: 40%;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px rgba(78, 252, 180, 0.468), -10px 0 10px rgba(78, 252, 180, 0.468);
+}
+/* line 130, ../sass/groupStyle.scss */
+body section div:nth-child(3) div:nth-child(1) {
+  box-shadow: none;
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+/* line 141, ../sass/groupStyle.scss */
+body section div:nth-child(3) div:nth-child(2) {
+  box-shadow: none;
+  width: 70%;
+  height: 20%;
+  padding: 2px;
+  margin: auto;
+  margin-top: 5px;
+}
+/* line 148, ../sass/groupStyle.scss */
+body section div:nth-child(3) div:nth-child(2) button {
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: 70%;
+  border-radius: 10px;
+  border: none;
+}
+/* line 155, ../sass/groupStyle.scss */
+body section div:nth-child(3) div:nth-child(2) button:hover {
+  background-color: #c2ff89;
+  cursor: pointer;
+}
+/* line 160, ../sass/groupStyle.scss */
+body section div:nth-child(3) div:nth-child(2) button a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.2rem;
+}
+/* line 173, ../sass/groupStyle.scss */
+body section div:nth-child(4) {
+  width: 45%;
+  height: 40%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(78, 252, 180, 0.468);
+}
+/* line 179, ../sass/groupStyle.scss */
+body section div:nth-child(4) div:nth-child(1) {
+  box-shadow: none;
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+/* line 190, ../sass/groupStyle.scss */
+body section div:nth-child(4) div:nth-child(2) {
+  box-shadow: none;
+  width: 70%;
+  height: 20%;
+  padding: 2px;
+  margin: auto;
+  margin-top: 5px;
+}
+/* line 197, ../sass/groupStyle.scss */
+body section div:nth-child(4) div:nth-child(2) button {
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: 70%;
+  border-radius: 10px;
+  border: none;
+}
+/* line 204, ../sass/groupStyle.scss */
+body section div:nth-child(4) div:nth-child(2) button:hover {
+  background-color: #c2ff89;
+  cursor: pointer;
+}
+/* line 209, ../sass/groupStyle.scss */
+body section div:nth-child(4) div:nth-child(2) button a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.2rem;
+}
+
+/* line 227, ../sass/groupStyle.scss */
+img {
+  transition: all 1.2s linear;
+}
+/* line 229, ../sass/groupStyle.scss */
+img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* line 234, ../sass/groupStyle.scss */
+.btn-style {
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: 70%;
+  border-radius: 10px;
+  border: none;
+}
+
+/* line 243, ../sass/groupStyle.scss */
+.anchor-style {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.2rem;
+}
+
+/* line 250, ../sass/groupStyle.scss */
+.picture {
+  box-shadow: none;
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+/* line 263, ../sass/groupStyle.scss */
+.btn_div_style {
+  box-shadow: none;
+  width: 70%;
+  height: 20%;
+  padding: 2px;
+  margin: auto;
+  margin-top: 5px;
+}

@@ -1,0 +1,28 @@
+/* line 1, ../sass/loginstyle2.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 8, ../sass/loginstyle2.scss */
+body section {
+  position: relative;
+  background: no-repeat url("../images/6.jpeg") center/cover;
+  border: 5px groove black;
+  height: 100vh;
+}
+/* line 13, ../sass/loginstyle2.scss */
+body section #formContainer {
+  position: absolute;
+  background-color: rgba(137, 213, 248, 0.615);
+  border-radius: 15px;
+  margin-top: 150px;
+  box-shadow: 10px 10px 10px rgba(196, 196, 196, 0.87);
+}
+/* line 20, ../sass/loginstyle2.scss */
+body section #formContainer a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
